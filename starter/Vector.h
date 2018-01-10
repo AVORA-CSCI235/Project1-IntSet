@@ -28,7 +28,7 @@ class Vector {
 	// Empties the vector of its elements
 	void clear();
 
-	// Returns a reference to the element in pos pos. 
+	// Returns a reference to the element in position pos. 
 	int& operator[](unsigned int pos);
 	const int& operator[](unsigned int pos) const;
 
