@@ -19,7 +19,7 @@ class Vector {
 	bool empty() const;
 	
 	// If the vector does not already contain data, adds
-	// a new element, data, to the front of the vector
+	// a new element, data, to the back of the vector
 	void push_back(const int& data);
 	
 	// If the vector contains data, removes data from the vector
